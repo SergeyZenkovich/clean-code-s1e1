@@ -37,7 +37,9 @@
 #top-section-for-adding-elem-to-list{
   margin: 16px 0;
 }
-.task-name, .new-task-input, .task-input {
+.task-name,
+.new-task-input,
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -52,15 +54,22 @@
   padding: 0px;
 }
 
-.task, .section-heading {
+.task,
+.section-heading {
   list-style: none;
 }
 
- .task-input .task-checkbox, .task-edit-btn, .task-delete-btn, .task-add-btn {
+.task-input,
+.task-checkbox,
+.task-edit-btn,
+.task-delete-btn,
+.task-add-btn {
   outline: none;
 }
 
-.task-edit-btn, .task-delete-btn, .task-add-btn {
+.task-edit-btn,
+.task-delete-btn,
+.task-add-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -70,13 +79,16 @@
   cursor: pointer;
 }
 
-.task-edit-btn:hover, .task-delete-btn:hover, .task-add-btn:hover {
+.task-edit-btn:hover,
+.task-delete-btn:hover,
+.task-add-btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
-.section-heading, .new-task-name[for="new-task-name"] {
+.section-heading,
+.new-task-name[for="new-task-name"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -129,7 +141,11 @@
   align-items: center;
 }
 
-.task>.task-checkbox, .task>.task-name, .task>.task-input .task>.task-edit-btn, .task>.task-delete-btn {
+.task>.task-checkbox,
+.task>.task-name,
+.task>.task-input,
+.task>.task-edit-btn,
+.task>.task-delete-btn {
   vertical-align: middle;
 }
 
